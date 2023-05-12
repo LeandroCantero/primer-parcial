@@ -149,6 +149,22 @@ body {
     cursor: pointer;
 }
 
+#e-learning-ico {
+    width: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#f-e-learning-ico {
+    width: 80px;
+    height: auto;
+    transition: .3s;
+}
+
+#f-e-learning-ico:hover {
+    transform: scale(1.2);
+}
+
 /* DARK MODE */
 
 .dark-mode {
