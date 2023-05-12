@@ -1,6 +1,11 @@
+body {
+    transition: .3s;
+}
+
 .navbar {
     background-color: #4761be;
     color: white;
+    transition: .3s;
 }
 
 .btn {
@@ -41,7 +46,7 @@
 }
 
 .nav-item .bi {
-    font-size: 18px;
+    font-size: 22px;
     transition: 0.3s;
 }
 
@@ -75,7 +80,7 @@
     margin-top: 25px;
     width: 180px;
     height: 50px;
-    border-radius: 0;
+    border-radius: 5px;
     font-weight: bolder;
 }
 
@@ -132,4 +137,30 @@
 
 .contact p{
     margin: 4px 0;
+}
+
+#toggleDark {
+    font-size: 26px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#toggleDark:hover {
+    cursor: pointer;
+}
+
+/* DARK MODE */
+
+.dark-mode {
+    background-color: #232332;
+    color: white;
+}
+
+.dark-mode-navbar {
+    background-color: #19192b;
+    color: white;
+}
+
+.container-fluid {
+    margin: 0 30px;
 }

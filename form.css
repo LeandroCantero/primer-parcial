@@ -1,0 +1,97 @@
+.form {
+    margin: 40px auto 100px auto;
+    text-align: left;
+}
+
+.top {
+    margin: 30px auto 30px auto;
+}
+
+.input-label {
+    margin: 20px 0;
+}
+
+input {
+    border: none;
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    margin: 50px auto 15px auto;
+}
+
+.two-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name, #lastname{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#name {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+#last-name {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+#mail {
+    width: 100%;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#send {
+    width: 100%;
+    background-color: #3898EC;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    background-color: #394d97;
+    color: white;
+    width: 40%;
+    box-shadow: 2px 2px 8px 1px #3a53ad;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.top p {
+    margin: 0;
+}
+
+#event-info {
+    margin-top: 20px;
+    color: #e9b32e;
+    font-weight: bold;
+}
+
+
+
+/* DARK MODE */
+
+.content-dark-mode {
+    background-color: #19192b;
+    color: white;
+    width: 40%;
+    box-shadow: none;
+    border-radius: 5px;
+}
