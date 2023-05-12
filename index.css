@@ -19,9 +19,14 @@ body {
     color: white;
 }
 
-.register-toggle .btn {
+.register-toggle {
+    display: flex
+}
+
+.register-toggle a {
     margin-right: 10px;
 }
+
 
 .navbar-brand {
     font-size: 24px;
